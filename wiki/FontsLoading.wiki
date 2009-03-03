@@ -33,7 +33,7 @@ function itemComplete(event:SomaLoaderEvent):void {
 
 === Flash Player 9 ===
 
-Load fonts for Flash Player 9 is very similar, but the registration is not automatic. You will have to know what are the fonts you are loading (the class names) and use the registerFontClassName method of a SomaLoaderItem (parameter is of String, the class names of the fonts).
+Load fonts for Flash Player 9 is very similar, but the registration is not automatic. You will have to know what are the fonts you are loading (the class names) and use the registerFontClassName method of a SomaLoaderItem (parameter is an Array of String containing the class names of the fonts).
 
 {{{
 import com.soma.loader.SomaLoader;
