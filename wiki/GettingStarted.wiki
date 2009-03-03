@@ -5,9 +5,9 @@
 
 SomaLoader has been built following a "ease-of-use" guideline. It has many features and one of them is the queue management of a list of items to load.
 
-A cache system is included in the library not to load twice the same item. If the cache management is completely automatic and transparent if you deploy your flash file for Flash Player 10, the cache is accessible for a Flash Player 9 version but require some more code to check and access to the "cached" items.
+A cache system is included in the library not to load twice the same item. If the cache management is completely automatic and transparent if you deploy your flash file for Flash Player 10, the cache is accessible for a Flash Player 9 version but requires some more code to check and access to the "cached" items.
 
-You can create as many SomaLoader instance as you wish but having only one instance in your application will fully use the cache functionalities.
+You can create as many SomaLoader instance as you wish but having only one instance in your application will fully use the cache functionality.
 
 I will add tutorials for every aspects of SomaLoader, let's see some simple syntax.
 
