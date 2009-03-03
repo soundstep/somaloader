@@ -4,7 +4,7 @@
 
 In some cases you might have tons of pictures to load, for a portfolio, for backgrounds or whatever. When you use the built-in class flash.display.Loader to load items, it can be quite CPU intensive as the Loader will instantiate a Bitmap (or a MovieClip) for each item loaded.
 
-If you are not displaying all the images straight away, or if you are loading a kind of "library" for later use in a site, it might be efficient to proceed in another way. 
+If you are not displaying all the images straight away, or if you are loading a kind of "library" for a later use in a site, it might be efficient to proceed in another way. 
 
 The idea behind "silent loading" is loading the images without instantiating a Bitmap each time, load them as Binary file (ByteArray) and create a Bitmap (or MovieClip) only when you need to show one. Loading a lot of images in a binary way to show all of them once loaded is not making sense, a basic loading will do the same.
 
