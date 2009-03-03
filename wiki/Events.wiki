@@ -1,10 +1,10 @@
 #summary you can listen to.
 
-= Introduction =
+=== Introduction ===
 
 SomaLoader has only one event class and only one class that is dispatching them, it makes easier to use. The event class is SomaLoaderEvent.
 
-= Events list =
+=== Events list ===
 
 Here is a list of events type you can listen to:
 
@@ -27,7 +27,7 @@ SomaLoaderEvent.ERROR
 SomaLoaderEvent.ID3_COMPLETE
 }}}
 
-= Events use =
+=== Events use ===
 
 Here is how to listen to the events and what the information you get:
 
@@ -131,6 +131,4 @@ function id3Handler(event):void {
 }
 
 }}}
-
-
 
