@@ -1,4 +1,4 @@
-#summary Events you can listen to.
+#summary you can listen to.
 
 = Introduction =
 
@@ -131,8 +131,6 @@ function id3Handler(event):void {
 }
 
 }}}
-
-
 
 
 
