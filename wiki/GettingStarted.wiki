@@ -35,7 +35,7 @@ loader.start();
 
 === SomaLoaderItem ===
 
-When you add an item to the queue, an instance of the SomaLoaderItem class is created and returned. You can access through this item to many options.
+When you add an item to the queue, an instance of the SomaLoaderItem class is created and returned. You can access to many options through this item.
 
 {{{
 var item:SomaLoaderItem = loader.add("photo1.jpg");
