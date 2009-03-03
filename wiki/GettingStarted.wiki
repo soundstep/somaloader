@@ -1,4 +1,4 @@
-#summary Getting started with SomaLoader, simple syntax to load a list of items.
+#summary with SomaLoader, simple syntax to load a list of common items.
 #labels gettingstarted,soma,loader,Featured
 
 === Introduction ===
