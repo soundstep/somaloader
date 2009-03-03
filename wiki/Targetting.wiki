@@ -27,7 +27,7 @@ loader.add("sdfasdf", addChild(new Sprite) as Sprite)
 
 === Set properties ===
 
-You can also set properties both on the container and on the file loaded before loading. Let's say you want to scale down the container of an image and set some properties straight on the file once loaded.
+You can also set properties both on the container and on the file loaded before loading. Let's say you want to scale down the container of an image and set some properties straight on the file.
 
 {{{
 var loader:SomaLoader = new SomaLoader();
@@ -40,6 +40,4 @@ item.addFileProperty("alpha", .5);
 item.addFileProperty("blendMode", BlendMode.MULTIPLY);
 loader.start();
 }}}
-
-
 
