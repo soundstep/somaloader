@@ -33,32 +33,6 @@ loader.add("photo3.jpg");
 loader.start();
 }}}
 
-=== Queue complete ===
-
-If you load a list of items, you can also listen to queue events:
-
-{{{
-import com.soma.loader.SomaLoader;
-import com.soma.loader.SomaLoaderEvent;
-
-var loader:SomaLoader = new SomaLoader();
-loader.addEventListener(SomaLoaderEvent.COMPLETE, itemComplete);
-loader.addEventListener(SomaLoaderEvent.QUEUE_COMPLETE, queueComplete);
-loader.add("photo1.jpg");
-loader.add("photo2.jpg");
-loader.add("photo3.jpg");
-loader.start();
-
-function itemComplete(event:SomaLoaderEvent):void {
-    var bitmap:Bitmap = event.item.file as Bitmap;
-    addChild(bitmap);
-}
-
-function queueComplete(event:SomaLoaderEvent):void {
-    trace("All the items have been loaded");
-}
-}}}
-
 === SomaLoaderItem ===
 
 When you add an item to the queue, an instance of the SomaLoaderItem class is created and returned. You can access through this item to many options.
@@ -96,6 +70,32 @@ loader.start();
 function itemComplete(event:SomaLoaderEvent):void {
     var bitmap:Bitmap = event.item.file as Bitmap;
     addChild(bitmap);
+}
+}}}
+
+=== Queue complete ===
+
+If you load a list of items, you can also listen to queue events:
+
+{{{
+import com.soma.loader.SomaLoader;
+import com.soma.loader.SomaLoaderEvent;
+
+var loader:SomaLoader = new SomaLoader();
+loader.addEventListener(SomaLoaderEvent.COMPLETE, itemComplete);
+loader.addEventListener(SomaLoaderEvent.QUEUE_COMPLETE, queueComplete);
+loader.add("photo1.jpg");
+loader.add("photo2.jpg");
+loader.add("photo3.jpg");
+loader.start();
+
+function itemComplete(event:SomaLoaderEvent):void {
+    var bitmap:Bitmap = event.item.file as Bitmap;
+    addChild(bitmap);
+}
+
+function queueComplete(event:SomaLoaderEvent):void {
+    trace("All the items have been loaded");
 }
 }}}
 
