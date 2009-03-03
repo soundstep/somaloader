@@ -101,7 +101,7 @@ function queueComplete(event:SomaLoaderEvent):void {
 
 === Types ===
 
-SomaLoader will most of the time understand what you're loading (with the file extension of the URL) and set the "type" property of the SomaLoaderItem on its own. This type property can also be manually set.
+SomaLoader understand will most of the time what you're loading (with the file extension of the URL) and set the "type" property of the SomaLoaderItem on its own. This type property can also be manually set.
 
 The following example set the bitmap type of the item, only as an example as it is unnecessary in this case. Setting a wrong type to an item might give you errors as the Flash built-in loaders are not loading the same type of items.
 
