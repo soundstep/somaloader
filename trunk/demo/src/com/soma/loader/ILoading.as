@@ -3,7 +3,7 @@ package com.soma.loader {
 	/**
 	 * <p><b>Author:</b> Romuald Quantin - <a href="http://www.soundstep.com/" target="_blank">www.soundstep.com</a><br/>
 	 * <b>Project host: </b><a href="http://code.google.com/p/somaloader/" target="_blank">http://code.google.com/p/somaloader/</a><br/>
-	 * <b>Class version:</b> 1.0<br/>
+	 * <b>Class version:</b> 1.0.1<br/>
 	 * <b>Actionscript version:</b> 3.0</p>
 	 * <p><b>Copyright:</b></p>
 	 * <p>The contents of this file are subject to the Mozilla Public License<br />
