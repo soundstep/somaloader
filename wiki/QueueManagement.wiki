@@ -39,7 +39,7 @@ loader.getIndex("photo.jpg");
 loader.setIndex("photo.jpg", 2);
 // get an item based on the url
 loader.getItem("photo.jpg");
-// get an item based on the url at a specific position
+// get an item at a specific position
 loader.getItemAt(0);
 // get the last item added to the queue
 loader.getLastItem();
